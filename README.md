@@ -53,12 +53,6 @@ A smart, voice-controlled desktop assistant built with Python. It can respond to
 
 ---
 
-## 📸 Screenshots or Demo (Optional)
-
-_Add screenshots or demo video links here._
-
----
-
 ## 👨‍💻 Author
 
 **Harrshan S**  
@@ -73,7 +67,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-## ✨ Future Plans (Optional)
+## ✨ Future Plans
 
 - Integrate GUI using `tkinter` or `PyQt`
 - Add email/SMS functionalities
