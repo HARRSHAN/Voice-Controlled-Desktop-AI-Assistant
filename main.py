@@ -51,7 +51,7 @@ def set_timer(commend):
         else:
             return " Invalid time unit "
         speak(f"Timer set for {val}{unit}")
-        #print(f"Timer set for {val} {unit}")
+        
 
         def countdown():
             time.sleep(seconds)
@@ -60,11 +60,11 @@ def set_timer(commend):
 
         threading.Thread(target=countdown).start()
         speak("Timer started.")
-        #print("Timer started.")
+        
         
     else:
         speak("I could not understand the timer command. Please specify the time in seconds or minutes.")
-        #print("I could not understand the timer command. Please specify the time in seconds or minutes.")
+        
            
 
 def close_app(prompt):
@@ -275,7 +275,7 @@ def run_voice_assistant():
                 continue
 
         if user_input in ["exit", "quit",'stop']:
-          #print("👋 Ending session. Goodbye!")
+          print("👋 Ending session. Goodbye!")
           speak("Ending session.")
           break
 
