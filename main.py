@@ -9,7 +9,7 @@ import google.generativeai as genai
 
 
 #wikipedia.set_lang("en")  
-API_KEY = "AIzaSyBbWXlcGVvMTZ0F7IVhCijg5d0RGXM7vVY"
+API_KEY = "YOUR_API_KEY"
 genai.configure(api_key = API_KEY)
 model = genai.GenerativeModel("gemini-2.0-flash")
 
